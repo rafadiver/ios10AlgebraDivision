@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080E76F01EA176A20009D465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E76EF1EA176A20009D465 /* AppDelegate.swift */; };
+		080E76F21EA176A20009D465 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E76F11EA176A20009D465 /* ViewController.swift */; };
+		080E76F51EA176A20009D465 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080E76F31EA176A20009D465 /* Main.storyboard */; };
+		080E76F71EA176A20009D465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080E76F61EA176A20009D465 /* Assets.xcassets */; };
+		080E76FA1EA176A20009D465 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080E76F81EA176A20009D465 /* LaunchScreen.storyboard */; };
+		080E77051EA176A20009D465 /* AlgebraDivisionTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E77041EA176A20009D465 /* AlgebraDivisionTutorialTests.swift */; };
+		080E77101EA176A20009D465 /* AlgebraDivisionTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E770F1EA176A20009D465 /* AlgebraDivisionTutorialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		080E77011EA176A20009D465 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 080E76E41EA176A20009D465 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 080E76EB1EA176A20009D465;
+			remoteInfo = AlgebraDivisionTutorial;
+		};
+		080E770C1EA176A20009D465 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 080E76E41EA176A20009D465 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 080E76EB1EA176A20009D465;
+			remoteInfo = AlgebraDivisionTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		080E76EC1EA176A20009D465 /* AlgebraDivisionTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgebraDivisionTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		080E76EF1EA176A20009D465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		080E76F11EA176A20009D465 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		080E76F41EA176A20009D465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		080E76F61EA176A20009D465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		080E76F91EA176A20009D465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		080E76FB1EA176A20009D465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080E77001EA176A20009D465 /* AlgebraDivisionTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgebraDivisionTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		080E77041EA176A20009D465 /* AlgebraDivisionTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgebraDivisionTutorialTests.swift; sourceTree = "<group>"; };
+		080E77061EA176A20009D465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080E770B1EA176A20009D465 /* AlgebraDivisionTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgebraDivisionTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		080E770F1EA176A20009D465 /* AlgebraDivisionTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgebraDivisionTutorialUITests.swift; sourceTree = "<group>"; };
+		080E77111EA176A20009D465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		080E76E91EA176A20009D465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080E76FD1EA176A20009D465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080E77081EA176A20009D465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E76E31EA176A20009D465 = {
+			isa = PBXGroup;
+			children = (
+				080E76EE1EA176A20009D465 /* AlgebraDivisionTutorial */,
+				080E77031EA176A20009D465 /* AlgebraDivisionTutorialTests */,
+				080E770E1EA176A20009D465 /* AlgebraDivisionTutorialUITests */,
+				080E76ED1EA176A20009D465 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		080E76ED1EA176A20009D465 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				080E76EC1EA176A20009D465 /* AlgebraDivisionTutorial.app */,
+				080E77001EA176A20009D465 /* AlgebraDivisionTutorialTests.xctest */,
+				080E770B1EA176A20009D465 /* AlgebraDivisionTutorialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		080E76EE1EA176A20009D465 /* AlgebraDivisionTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				080E76EF1EA176A20009D465 /* AppDelegate.swift */,
+				080E76F11EA176A20009D465 /* ViewController.swift */,
+				080E76F31EA176A20009D465 /* Main.storyboard */,
+				080E76F61EA176A20009D465 /* Assets.xcassets */,
+				080E76F81EA176A20009D465 /* LaunchScreen.storyboard */,
+				080E76FB1EA176A20009D465 /* Info.plist */,
+			);
+			path = AlgebraDivisionTutorial;
+			sourceTree = "<group>";
+		};
+		080E77031EA176A20009D465 /* AlgebraDivisionTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				080E77041EA176A20009D465 /* AlgebraDivisionTutorialTests.swift */,
+				080E77061EA176A20009D465 /* Info.plist */,
+			);
+			path = AlgebraDivisionTutorialTests;
+			sourceTree = "<group>";
+		};
+		080E770E1EA176A20009D465 /* AlgebraDivisionTutorialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				080E770F1EA176A20009D465 /* AlgebraDivisionTutorialUITests.swift */,
+				080E77111EA176A20009D465 /* Info.plist */,
+			);
+			path = AlgebraDivisionTutorialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		080E76EB1EA176A20009D465 /* AlgebraDivisionTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080E77141EA176A20009D465 /* Build configuration list for PBXNativeTarget "AlgebraDivisionTutorial" */;
+			buildPhases = (
+				080E76E81EA176A20009D465 /* Sources */,
+				080E76E91EA176A20009D465 /* Frameworks */,
+				080E76EA1EA176A20009D465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlgebraDivisionTutorial;
+			productName = AlgebraDivisionTutorial;
+			productReference = 080E76EC1EA176A20009D465 /* AlgebraDivisionTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		080E76FF1EA176A20009D465 /* AlgebraDivisionTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080E77171EA176A20009D465 /* Build configuration list for PBXNativeTarget "AlgebraDivisionTutorialTests" */;
+			buildPhases = (
+				080E76FC1EA176A20009D465 /* Sources */,
+				080E76FD1EA176A20009D465 /* Frameworks */,
+				080E76FE1EA176A20009D465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				080E77021EA176A20009D465 /* PBXTargetDependency */,
+			);
+			name = AlgebraDivisionTutorialTests;
+			productName = AlgebraDivisionTutorialTests;
+			productReference = 080E77001EA176A20009D465 /* AlgebraDivisionTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		080E770A1EA176A20009D465 /* AlgebraDivisionTutorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080E771A1EA176A20009D465 /* Build configuration list for PBXNativeTarget "AlgebraDivisionTutorialUITests" */;
+			buildPhases = (
+				080E77071EA176A20009D465 /* Sources */,
+				080E77081EA176A20009D465 /* Frameworks */,
+				080E77091EA176A20009D465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				080E770D1EA176A20009D465 /* PBXTargetDependency */,
+			);
+			name = AlgebraDivisionTutorialUITests;
+			productName = AlgebraDivisionTutorialUITests;
+			productReference = 080E770B1EA176A20009D465 /* AlgebraDivisionTutorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		080E76E41EA176A20009D465 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Uberbliss;
+				TargetAttributes = {
+					080E76EB1EA176A20009D465 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 6B4FVVK7JQ;
+						ProvisioningStyle = Automatic;
+					};
+					080E76FF1EA176A20009D465 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 6B4FVVK7JQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 080E76EB1EA176A20009D465;
+					};
+					080E770A1EA176A20009D465 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 6B4FVVK7JQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 080E76EB1EA176A20009D465;
+					};
+				};
+			};
+			buildConfigurationList = 080E76E71EA176A20009D465 /* Build configuration list for PBXProject "AlgebraDivisionTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 080E76E31EA176A20009D465;
+			productRefGroup = 080E76ED1EA176A20009D465 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				080E76EB1EA176A20009D465 /* AlgebraDivisionTutorial */,
+				080E76FF1EA176A20009D465 /* AlgebraDivisionTutorialTests */,
+				080E770A1EA176A20009D465 /* AlgebraDivisionTutorialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		080E76EA1EA176A20009D465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080E76FA1EA176A20009D465 /* LaunchScreen.storyboard in Resources */,
+				080E76F71EA176A20009D465 /* Assets.xcassets in Resources */,
+				080E76F51EA176A20009D465 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080E76FE1EA176A20009D465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080E77091EA176A20009D465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		080E76E81EA176A20009D465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080E76F21EA176A20009D465 /* ViewController.swift in Sources */,
+				080E76F01EA176A20009D465 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080E76FC1EA176A20009D465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080E77051EA176A20009D465 /* AlgebraDivisionTutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080E77071EA176A20009D465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080E77101EA176A20009D465 /* AlgebraDivisionTutorialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		080E77021EA176A20009D465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 080E76EB1EA176A20009D465 /* AlgebraDivisionTutorial */;
+			targetProxy = 080E77011EA176A20009D465 /* PBXContainerItemProxy */;
+		};
+		080E770D1EA176A20009D465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 080E76EB1EA176A20009D465 /* AlgebraDivisionTutorial */;
+			targetProxy = 080E770C1EA176A20009D465 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		080E76F31EA176A20009D465 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080E76F41EA176A20009D465 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		080E76F81EA176A20009D465 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080E76F91EA176A20009D465 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		080E77121EA176A20009D465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		080E77131EA176A20009D465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		080E77151EA176A20009D465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6B4FVVK7JQ;
+				INFOPLIST_FILE = AlgebraDivisionTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uberbliss.AlgebraDivisionTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		080E77161EA176A20009D465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6B4FVVK7JQ;
+				INFOPLIST_FILE = AlgebraDivisionTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uberbliss.AlgebraDivisionTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		080E77181EA176A20009D465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6B4FVVK7JQ;
+				INFOPLIST_FILE = AlgebraDivisionTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uberbliss.AlgebraDivisionTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlgebraDivisionTutorial.app/AlgebraDivisionTutorial";
+			};
+			name = Debug;
+		};
+		080E77191EA176A20009D465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6B4FVVK7JQ;
+				INFOPLIST_FILE = AlgebraDivisionTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uberbliss.AlgebraDivisionTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlgebraDivisionTutorial.app/AlgebraDivisionTutorial";
+			};
+			name = Release;
+		};
+		080E771B1EA176A20009D465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6B4FVVK7JQ;
+				INFOPLIST_FILE = AlgebraDivisionTutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uberbliss.AlgebraDivisionTutorialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AlgebraDivisionTutorial;
+			};
+			name = Debug;
+		};
+		080E771C1EA176A20009D465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6B4FVVK7JQ;
+				INFOPLIST_FILE = AlgebraDivisionTutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uberbliss.AlgebraDivisionTutorialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AlgebraDivisionTutorial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		080E76E71EA176A20009D465 /* Build configuration list for PBXProject "AlgebraDivisionTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080E77121EA176A20009D465 /* Debug */,
+				080E77131EA176A20009D465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		080E77141EA176A20009D465 /* Build configuration list for PBXNativeTarget "AlgebraDivisionTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080E77151EA176A20009D465 /* Debug */,
+				080E77161EA176A20009D465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		080E77171EA176A20009D465 /* Build configuration list for PBXNativeTarget "AlgebraDivisionTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080E77181EA176A20009D465 /* Debug */,
+				080E77191EA176A20009D465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		080E771A1EA176A20009D465 /* Build configuration list for PBXNativeTarget "AlgebraDivisionTutorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080E771B1EA176A20009D465 /* Debug */,
+				080E771C1EA176A20009D465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 080E76E41EA176A20009D465 /* Project object */;
+}
